@@ -278,5 +278,5 @@ html::-webkit-scrollbar {
 }
 
 .overflow-x-hidden {
-  overflow-x: hidden;
+  overflow-x: clip;
 }
