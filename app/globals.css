@@ -268,13 +268,15 @@
   animation: fadeIn 0.7s ease-out forwards;
 }
 
-html, body {
-  overflow-x: hidden;
+html {
   scrollbar-width: none;
   -ms-overflow-style: none;
 }
 
-html::-webkit-scrollbar,
-body::-webkit-scrollbar {
+html::-webkit-scrollbar {
   display: none;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
 }

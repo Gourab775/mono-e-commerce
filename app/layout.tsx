@@ -37,7 +37,9 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${inter.variable} font-sans antialiased`} suppressHydrationWarning>
-        {children}
+        <div className="overflow-x-hidden">
+          {children}
+        </div>
         <Analytics />
       </body>
     </html>
